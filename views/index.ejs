@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><% include partials/template/head.ejs %></head>
+  <body>
+  <% include partials/template/navbar.ejs %>
+    <div class="container clear-top" id="wrap">
+        <h1><%= title %></h1>
+        <p>Welcome to <%= title %></p>
+        <section class="layout">
+            <div class="primary">
+                <% include partials/content/speakerslist.ejs %>
+                <% include partials/content/whoarewe.ejs %>
+                <% include partials/content/whoshouldcome.ejs %>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi, eaque esse necessitatibus possimus quis recusandae. Aliquam fugiat nemo neque praesentium quia quibusdam suscipit vero? Assumenda cumque provident similique vero!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi, eaque esse necessitatibus possimus quis recusandae. Aliquam fugiat nemo neque praesentium quia quibusdam suscipit vero? Assumenda cumque provident similique vero!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus commodi, eaque esse necessitatibus possimus quis recusandae. Aliquam fugiat nemo neque praesentium quia quibusdam suscipit vero? Assumenda cumque provident similique vero!</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+    </div><!-- ##-= End Container =-## -->
+  <% include partials/template/footer.ejs %>
+  <% include partials/template/scripts.ejs %>
+  </body>
+</html>

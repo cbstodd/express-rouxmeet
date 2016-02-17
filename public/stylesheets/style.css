@@ -1,0 +1,14 @@
+.navbar {
+  border-radius: 0px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+}
+
+ul.speakers {
+    list-style-type: none;
+}
+

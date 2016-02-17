@@ -1,0 +1,13 @@
+<article class="artworklist">
+    <h1>Speaker list</h1>
+
+    <ul class="speakers">
+        <% appdata.speakers.forEach(function(item) { %>
+        <li><b>Name:</b> <%= item.shortname %></li>
+        <li><b>Bio:</b> <%= item.summary %></li>
+        <hr>
+        <% });  %>
+    </ul>
+
+
+</article>
